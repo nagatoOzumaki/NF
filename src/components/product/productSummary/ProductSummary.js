@@ -43,12 +43,6 @@ const ProductSummary = ({ products }) => {
           count={products.length}
           bgColor="card1"
         />
-        <InfoBox
-          icon={earningIcon}
-          title={"Total HT"}
-          count={`${formatNumbers(totalStoreValue.toFixed(2))} DH`}
-          bgColor="card2"
-        />
       </div>
     </div>
   );
