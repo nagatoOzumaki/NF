@@ -115,7 +115,7 @@ function Facture() {
                 </article>
                 <article className="md:grid grid-cols-3 gap-10 ">
                 <div className="flex flex-col" >
-               <label htmlFor="invoiceNumber">Numéro de facture</label>
+               <label htmlFor="invoiceNumber">Devis :</label>
                   <input
                     type="text"
                     name="invoiceNumber"
